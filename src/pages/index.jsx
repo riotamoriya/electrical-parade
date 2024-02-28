@@ -38,7 +38,7 @@ const IndexPage = () => {
 
   return (
     <main style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "50px" }}>
-      <img src={isPlaying ? stopIcon : playIcon} alt="Play/Stop" style={{ height: "20vh", marginBottom: "20px" }} />
+      <img src={isPlaying ? stopIcon : playIcon} alt="Play/Stop" style={{ height: "45vw]", width: "45vh", marginBottom: "20px" }} />
       <div>
         <button onClick={togglePlay}>{isPlaying ? "Restart Music" : "Play Music"}</button>
         <button onClick={() => { audioRef.current.pause(); setIsPlaying(false); }}>Stop Music</button>
