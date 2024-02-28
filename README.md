@@ -1,49 +1,19 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# シンプルな音楽プレーヤー
 
-## 🚀 Quick start
+このプロジェクトは、Reactを使用してシンプルな音楽プレーヤーを構築するものです。外部の音楽ファイルを再生するためのボタンを提供し、ユーザーが簡単に音楽を再生または停止することができます。
 
-1.  **Create a Gatsby site.**
+## 機能
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- 再生ボタン: 外部の音楽ファイルを再生します。再生中に再度再生ボタンを押すと、再生が最初から始まります。
+- 停止ボタン: 外部の音楽ファイルの再生を停止し、再生位置を最初にリセットします。
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## 使用方法
 
-2.  **Start developing.**
+1. プロジェクトをクローンまたはダウンロードします。
+2. コマンドラインでプロジェクトディレクトリに移動します。
+3. `npm install`を実行して、依存関係をインストールします。
+4. `npm start`を実行して、プロジェクトをローカルで実行します。
 
-    Navigate into your new site’s directory and start it up.
+## ライセンス
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+このプロジェクトは [MIT ライセンス](LICENSE) の下で公開されています。
